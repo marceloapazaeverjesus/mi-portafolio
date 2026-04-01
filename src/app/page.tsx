@@ -110,7 +110,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -20 }}
               className="h-full w-full flex flex-col items-center justify-center gap-4 lg:gap-6"
             >
-              <div className="relative w-[160px] md:w-[320px] h-[50%] lg:h-[65%] max-h-[200px] lg:max-h-[350px] aspect-[9/16] rounded-[2.5rem] lg:rounded-[3rem] border border-white/10 overflow-hidden bg-zinc-900 shadow-2xl">
+              <div className="relative w-[160px] md:w-[320px] h-[50%] lg:h-[65%] max-h-[200px] lg:max-h-[300px] aspect-[9/16] rounded-[2.5rem] lg:rounded-[3rem] border border-white/10 overflow-hidden bg-zinc-900 shadow-2xl">
                 {apps.length > 0 && (
                   <Image src={apps[currentIndex].image} alt={apps[currentIndex].name} fill className="object-cover" priority />
                 )}
