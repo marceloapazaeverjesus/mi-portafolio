@@ -75,7 +75,7 @@ export default function Home() {
       <section id="proyectos" className={`${sectionHeight} w-full snap-start snap-always bg-[#080808] flex items-center justify-center border-b border-white/5 p-4`}>
         <div className="max-w-6xl mx-auto w-full text-center overflow-hidden">
           <h2 className="text-[10px] font-mono text-blue-500 tracking-[0.5em] uppercase mb-2">Stack Tecnológico</h2>
-          <p className="text-3xl lg:text-6xl font-black text-white italic uppercase mb-8 lg:mb-16">Tool<span className="text-zinc-700">kit</span></p>
+          <p className="text-3xl lg:text-6xl font-black text-white italic uppercase mb-8 lg:mb-16">HABIL<span className="text-zinc-700">IDADES</span></p>
           <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 lg:gap-6 overflow-y-auto max-h-[60vh] lg:max-h-none no-scrollbar">
             {technologies.map((tech, i) => (
               <div key={i} className="flex flex-col items-center">
@@ -94,13 +94,13 @@ export default function Home() {
         <div className="max-w-6xl mx-auto w-full text-center h-full flex flex-col justify-center">
           <p className="text-3xl lg:text-6xl font-black text-white italic uppercase mb-8 lg:mb-16">Servi<span className="text-zinc-700">cios</span></p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-8 overflow-y-auto no-scrollbar py-2">
-            <ServiceCard index={0} title="Mobile" color="blue" img="/tech/mobile-service.png" desc="Apps nativas con React Native." />
-            <ServiceCard index={1} title="Web" color="purple" img="/tech/web-service.png" desc="Sistemas modernos con Next.js." />
-            <ServiceCard index={2} title="Data" color="emerald" img="/tech/data-service.png" desc="Optimización con SQL y Power BI." />
+            <ServiceCard index={0} title="Mobile" color="blue" img="/tech/mobile-servicev1.png" desc="Apps nativas con React Native." />
+            <ServiceCard index={1} title="Web" color="purple" img="/tech/web-servicev1.png" desc="Sistemas modernos con Next.js." />
+            <ServiceCard index={2} title="Data" color="emerald" img="/tech/data.png" desc="Optimización con SQL y Power BI." />
           </div>
         </div>
       </section>
-
+ 
       {/* GRUPO 4: APPS */}
       <section id="tienda" className={`${sectionHeight} w-full snap-start snap-always bg-[#050505] relative overflow-hidden flex flex-col`}>
         <div className="flex-1 w-full flex flex-col items-center justify-between py-8 lg:py-16 relative z-10">
